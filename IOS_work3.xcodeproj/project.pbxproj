@@ -13,6 +13,10 @@
 		4AA3F39F24593AC30094F7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3F39E24593AC30094F7AE /* Assets.xcassets */; };
 		4AA3F3A224593AC30094F7AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3F3A124593AC30094F7AE /* Preview Assets.xcassets */; };
 		4AA3F3A524593AC30094F7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3F3A324593AC30094F7AE /* LaunchScreen.storyboard */; };
+		4ABC757A245D948900932407 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC7579245D948900932407 /* Music.swift */; };
+		4ABC7581245DBE2600932407 /* 搖滾.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC757F245DBE2300932407 /* 搖滾.mp3 */; };
+		4ABC7582245DBE2600932407 /* 抒情.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC7580245DBE2600932407 /* 抒情.mp3 */; };
+		4ACC3D53245D703C00B8C4EB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC3D52245D703C00B8C4EB /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4AA3F3A124593AC30094F7AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AA3F3A424593AC30094F7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA3F3A624593AC30094F7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABC7579245D948900932407 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		4ABC757F245DBE2300932407 /* 搖滾.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "搖滾.mp3"; sourceTree = "<group>"; };
+		4ABC7580245DBE2600932407 /* 抒情.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "抒情.mp3"; sourceTree = "<group>"; };
+		4ACC3D52245D703C00B8C4EB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondView.swift; path = IOS_work3/SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		4AA3F38C24593AC10094F7AE = {
 			isa = PBXGroup;
 			children = (
+				4ACC3D52245D703C00B8C4EB /* SecondView.swift */,
 				4AA3F39724593AC10094F7AE /* IOS_work3 */,
 				4AA3F39624593AC10094F7AE /* Products */,
 			);
@@ -59,9 +68,12 @@
 				4AA3F39824593AC10094F7AE /* AppDelegate.swift */,
 				4AA3F39A24593AC10094F7AE /* SceneDelegate.swift */,
 				4AA3F39C24593AC10094F7AE /* ContentView.swift */,
+				4ABC7579245D948900932407 /* Music.swift */,
 				4AA3F39E24593AC30094F7AE /* Assets.xcassets */,
 				4AA3F3A324593AC30094F7AE /* LaunchScreen.storyboard */,
 				4AA3F3A624593AC30094F7AE /* Info.plist */,
+				4ABC7580245DBE2600932407 /* 抒情.mp3 */,
+				4ABC757F245DBE2300932407 /* 搖滾.mp3 */,
 				4AA3F3A024593AC30094F7AE /* Preview Content */,
 			);
 			path = IOS_work3;
@@ -133,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ABC7582245DBE2600932407 /* 抒情.mp3 in Resources */,
+				4ABC7581245DBE2600932407 /* 搖滾.mp3 in Resources */,
 				4AA3F3A524593AC30094F7AE /* LaunchScreen.storyboard in Resources */,
 				4AA3F3A224593AC30094F7AE /* Preview Assets.xcassets in Resources */,
 				4AA3F39F24593AC30094F7AE /* Assets.xcassets in Resources */,
@@ -148,6 +162,8 @@
 			files = (
 				4AA3F39924593AC10094F7AE /* AppDelegate.swift in Sources */,
 				4AA3F39B24593AC10094F7AE /* SceneDelegate.swift in Sources */,
+				4ABC757A245D948900932407 /* Music.swift in Sources */,
+				4ACC3D53245D703C00B8C4EB /* SecondView.swift in Sources */,
 				4AA3F39D24593AC10094F7AE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"IOS_work3/Preview Content\"";
+				DEVELOPMENT_TEAM = 76BRUPGDY8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = IOS_work3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"IOS_work3/Preview Content\"";
+				DEVELOPMENT_TEAM = 76BRUPGDY8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = IOS_work3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
